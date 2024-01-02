@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { sqlite3Worker1Promiser } from '../index.mjs';
+import { sqlite3Worker1Promiser } from './index.mjs';
 
 
 
