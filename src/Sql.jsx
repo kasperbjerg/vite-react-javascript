@@ -9,8 +9,6 @@ export default function Sql() {
   
   useEffect(() => {
 
-    
-
     const start = function (sqlite3) {
       console.log('Running SQLite3 version', sqlite3.version.libVersion);
       const db = new sqlite3.oo1.DB('/mydb.sqlite3', 'ct');
