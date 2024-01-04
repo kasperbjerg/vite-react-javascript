@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Workspace from './components/Workspace/'
 import Sql from './Sql.jsx'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React + Javascript</h1>
+      //<Workspace />
       <Sql />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
