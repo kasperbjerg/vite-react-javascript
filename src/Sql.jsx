@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
-import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
+import sqlite3InitModule from './index.mjs';
 
 export default function Sql() {
 
