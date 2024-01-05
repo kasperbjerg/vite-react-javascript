@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
-import sqlite3InitModule from './index.mjs';
+import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
 
 export default function Sql() {
 
@@ -56,6 +56,7 @@ export default function Sql() {
   
   return (
     <div>
+      <h1>{resultRows}</h1>
       <h1>Database</h1>
       <h1>{resultRows}</h1>
     </div>
